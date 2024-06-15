@@ -1,0 +1,314 @@
+
+* {
+    margin: 0;
+}
+
+nav {
+    box-shadow: 0 4px 40px -8px rgba(0,0,0,0.3);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 400;
+    background: #fff;
+    padding: 3vh 4vw;
+}
+
+nav .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 4vw;
+   list-style: none;
+}
+
+nav .logo {
+    color: rgb(4, 99, 36);
+    font-size: 1.80vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav .container a {
+    text-decoration: none;
+    color: rgb(97, 31, 4);
+    font-size: 1.25vw;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    transition: ease 450ms;
+}
+
+nav .container a:hover {
+    font-size: 1.40vw;
+    color: #fff;
+    background-color: rgb(5, 61, 75);
+    padding: 1.50vh 1.50vw;
+    border-radius: 9px;
+}
+
+#aboutus {
+    display: flex;
+    flex-direction: row;
+}
+
+.scdimg {
+    width: 900px;
+    height: 1100px;
+    margin-right: 5vw;
+}
+
+.abt {
+    width: 45vw;
+    margin-top: 150px;
+    margin-bottom: 10vh;
+}
+
+.abt1 {
+    width: 75vw;
+    margin-top: 80px;
+    margin-left: 7vw;
+}
+
+.scd2 {
+    color: rgb(97, 31, 4);
+    font-size: 2vw;
+    padding-bottom: 3vh;
+}
+
+.sub2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(5, 61, 75);
+    font-size: 1.3vw;
+    line-height: 2.6vh;
+    margin-right: 5vw;
+    margin-bottom: 40px;
+}
+
+nav .container h3 .home {
+    display: none;
+ }
+
+ nav .container .home {
+    display: none;
+ }
+
+.firstext493 {
+    font-size: 0;
+    z-index: 0;
+}
+
+.mob1img {
+    width: 0;
+    height: 0;
+}
+
+.mob2img {
+    width: 0;
+    height: 0;
+}
+
+.firstext492 {
+    font-size: 0;
+}
+
+.firstext492 a {
+    color: 0;
+}
+
+.firstext491 {
+    font-size: 0;
+}
+
+.firstext491 a {
+    color: 0;
+}
+
+.scdimg2 {
+    width: 0;
+    height: 0;
+}
+
+
+@media only screen and (max-width: 1679px){
+
+    nav .container ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3vw;
+        list-style: none;
+     }
+     
+     nav .logo {
+         color: rgb(4, 99, 36);
+         font-size: 27px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-weight: bold;
+     }
+     
+     nav .container a {
+         text-decoration: none;
+         color: rgb(97, 31, 4);
+         font-size: 21px;
+         font-family: 'Arial Narrow', Arial, sans-serif;
+         font-weight: bold;
+         transition: ease 450ms;
+     }
+
+     nav .container h3 .home {
+        display: none;
+     }
+
+     nav .container .home {
+        display: none;
+     }
+
+     nav .container a:hover {
+         font-size: 1.40vw;
+         color: #fff;
+         background-color: rgb(5, 61, 75);
+         padding: 1.50vh 1.50vw;
+         border-radius: 9px;
+     }
+
+    #aboutus {
+        display: contents;
+    }
+
+    .abt {
+        width: 80vw;
+        margin-top: 10vh;
+        margin-left: 70px;
+        margin-right: 10px;
+    }
+
+    .abt1 {
+        width: 80vw;
+        margin-top: 2vh;
+        margin-left: 70px;
+        margin-right: 10px;
+    }
+
+    .scdimg {
+        width: 0;
+        height: 0;
+    }
+
+    .scdimg2 {
+        width: 85vw;
+        height: 45vw;
+        margin-top: 4vh;
+        margin-left: -2vh;
+    }
+    
+
+    .scd2 {
+        color: rgb(97, 31, 4);
+        font-size: 17px;
+        padding-bottom: 3vh;
+    }
+    
+    .sub2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(5, 61, 75);
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    
+    .sub-heading {
+        font-size: 11px;
+        margin: 1.5vh 9vw;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: rgb(6, 140, 180);
+    }
+
+    h3 {
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(69, 82, 0);
+        padding: 1vh 0vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+
+    nav .logo {
+        color: rgb(4, 99, 36);
+        font-size: 27px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    nav .container ul {
+        display: none;
+    }
+    
+    nav .container .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+     }
+
+    nav .container .home {
+        text-decoration: none;
+        color: rgb(4, 99, 36);
+        font-size: 1.25vw;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        transition: ease 450ms;
+        margin-right: 70px;
+    }
+
+    .scdimg {
+        width: 0;
+        height: 0;
+    }
+
+    .scdimg2 {
+        width: 85vw;
+        height: 45vw;
+        margin-top: 4vh;
+    }
+
+    .abt {
+        width: 75vw;
+        margin-top: 10vh;
+        margin-left: 7vw;
+    }
+
+    .abt {
+        width: 75vw;
+        margin-top: 10vh;
+        margin-left: 7vw;
+    }
+
+    #aboutus {
+        display: contents;
+    }
+    
+    
+    .scd2 {
+        color: rgb(97, 31, 4);
+        font-size: 21px;
+        padding-bottom: 3vh;
+    }
+    
+    .sub2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(5, 61, 75);
+        font-size: px;
+        line-height: 2vh;
+    }
+}
